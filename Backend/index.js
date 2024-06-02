@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 //database
-const url = `mongodb+srv://kaurrajvinder736:1121402@democluster.tvboolv.mongodb.net/company?retryWrites=true&w=majority&appName=democluster`;
+const url = ``;
 
 //mongodb connection
 mongoose.connect(url,{
